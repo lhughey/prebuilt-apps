@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{45DDE5CD-A713-4F30-995B-F16FF546281B}</ProjectGuid>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Data\IFavoritesRepository.cs" />
+    <Compile Include="Data\Person.cs" />
+    <Compile Include="Data\PropertyAttribute.cs" />
+    <Compile Include="Data\Search.cs" />
+    <Compile Include="Data\SearchProperty.cs" />
+    <Compile Include="Data\XmlFavoritesRepository.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="IDirectoryService.cs" />
+    <Compile Include="IFavoritesRepository.cs" />
+    <Compile Include="LdapDirectoryService.cs" />
+    <Compile Include="MemoryDirectoryService.cs" />
+    <Compile Include="ViewModel\ErrorEventArgs.cs" />
+    <Compile Include="ViewModel\FavoritesViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\PeopleGroup.cs" />
+    <Compile Include="ViewModel\PersonViewModel.cs" />
+    <Compile Include="ViewModel\SearchViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.Default.props" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
